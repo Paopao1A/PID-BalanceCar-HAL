@@ -1,0 +1,23 @@
+# 忽略 Keil 编译产生的中间文件和输出文件
+*.o
+*.d
+*.crf
+*.htm
+*.map
+*.hex
+*.bin
+*.axf
+*.lnp
+*.sct
+*.dep
+*.lst
+*.json
+*.log
+
+# 忽略 Keil 的用户特定界面配置文件和调试配置
+*.uvguix.*
+DebugConfig/
+RTE/
+
+# 忽略 CubeMX 的备份文件
+*.bak
